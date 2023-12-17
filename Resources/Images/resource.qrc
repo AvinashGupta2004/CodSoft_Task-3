@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="images">
+    <file>fistHand.png</file>
+    <file>paperHand.png</file>
+    <file>scissorHand.png</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>

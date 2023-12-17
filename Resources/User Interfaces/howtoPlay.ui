@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1530</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>How to Play</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Images/scissorHand.png</normaloff>../Images/scissorHand.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">font: 75 bold 18pt &quot;Segoe UI&quot;;
+text-decoration:underline;</string>
+         </property>
+         <property name="text">
+          <string>Rock, Paper and Scissors - About the Developer</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Leelawadee UI&quot;;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Game Instructions&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;This is a 2 player game in which 3 options are given to each player namely &lt;span style=&quot; font-weight:600;&quot;&gt;Rock, Paper and Scissors&lt;/span&gt;.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;This game is based on the face that who proves to be more dominating above whom. Hence it follows the given pattern:&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Rock - Paper&lt;/span&gt; : Since Paper can wrap the rock, hence Paper proves to be more dominating. Therefore, whosoever is having Paper as option will defeat Rock and wins a Point.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Paper - Scissor&lt;/span&gt; : Since scissor can cut the paper into pieces, hence it proves more dominating over paper, hence scissor wins.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Scissor - Rock&lt;/span&gt; : Rock is hard mass, scissor cannot cut this, hence Rock wins the point.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;As the Player chooses the option out of 3, Computer randomly chooses its option and on the basis of the above rule, the result is evaluated and shown on the scoreboard.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
